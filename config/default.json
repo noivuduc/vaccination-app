@@ -1,0 +1,11 @@
+{
+    "app": "Vaccination-App",
+    "apiKey": "MWVlOWE3OTgtMzcwZi00ZGJkLTk5NjktYzA5Nzk1MDk5NGQ0",
+    "email": {
+        "port": 465,
+        "host": "smtp.gmail.com",
+        "emailName": "",
+        "emailAddress": "",
+        "password": ""
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "vaccination-booking",
+  "version": "1.0.0",
+  "description": "Vaccination booking service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "echo 'run dev' & npm start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "./node_modules/nodemon/bin/nodemon.js --config nodemon.json --exec npm run dev "
+  },
+  "author": "Noi Vu Duc",
+  "license": "ISC",
+  "dependencies": {
+    "async-lock": "^1.3.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "config": "^1.29.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "express-session": "^1.17.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "recreateDB": false,
+    "mongo" : {
+        "database" : "vaccination",
+        "user" : "vaccination",
+        "pwd" : "SHArR9DoRCOSO1WQ",
+        "protocol": "mongodb+srv",
+        "options": "retryWrites=true&w=majority",
+        "host": "cluster0.ya3an.mongodb.net",
+        "port": "27017"
+    }
+
+}
